@@ -10,6 +10,8 @@ export function App() {
             <main key={el.name}>
                 
                 <div className='mainparents'>
+
+              
                 <section className='prents_div1'>
                      
                      <div className='info'>
@@ -33,6 +35,7 @@ export function App() {
                     </div>
                 </section>
 
+
                 <section className='parents_div2'>
                    {
                               el?.info.map((elss) => (
@@ -41,11 +44,11 @@ export function App() {
                             <p className='p1'>{elss.text}</p>
                           </div>
                                   ))
-                              }
+                    }
                 </section>
+
                 </div>
             </main>
-
 
            ))
         } 
