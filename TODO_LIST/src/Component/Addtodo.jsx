@@ -20,6 +20,7 @@ export const AddTodo =()=>{
 
          setData([...data,todo]);
     }
+    console.log(AddTodo);
 
     return(
         <>
@@ -31,3 +32,4 @@ export const AddTodo =()=>{
         </>
     )
 }
+console.log(AddTodo);
