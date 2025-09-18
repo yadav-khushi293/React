@@ -21,6 +21,7 @@ export const AddTodo =()=>{
          setData([...data,todo]);
     }
 
+    console.log(data);
 
     return(
         <>
