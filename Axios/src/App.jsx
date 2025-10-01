@@ -1,11 +1,12 @@
-import {Api} from './Component/ApiCall'
+import {Todos} from './Component/Todo'
 import './App.css'
 
 function App() {
   
     return(
         <>
-        <Api/>
+        {/* <Api/> */}
+        <Todos/>
         </>
     )
 }
