@@ -35,7 +35,8 @@ export const ListTodo =()=>{
             await axios.delete(`${api}/${id}`)
         }
 
-        useEffect(()=>{
+        useEffect
+        (()=>{
             const fetchData = async()=>{
                 try{
                     let res1=await getData(api);
