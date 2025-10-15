@@ -26,8 +26,7 @@ export const Todos= ()=>{
         }catch(error){
             console.log(error)
         }
-           console.log("khushi")
-           console.log("yadav")
+         
     }
 
     return(
