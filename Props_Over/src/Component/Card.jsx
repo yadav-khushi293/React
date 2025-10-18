@@ -14,7 +14,8 @@ export const Card = ({
         <h1>age:{age}</h1>
         <h1>email:{email}</h1>
         <h5>khushi yadav</h5>
-        <h1></h1>
+        <h1>kajal</h1>
+        <h2>khushi</h2>
         </>
     )
 }
