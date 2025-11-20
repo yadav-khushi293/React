@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import  '../App.css'
 export const Api_Call=()=>{
 
-        const [data,setData]=React.useState([]);
+const [data,setData]=React.useState([]);
         
     const API="https://jsonplaceholder.typicode.com/todos"
 
