@@ -1,0 +1,11 @@
+.parents{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    gap: 30px;
+}
+.childe{
+    border: 1px solid black;
+    text-align: center;
+}
