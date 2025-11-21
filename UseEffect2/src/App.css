@@ -1,0 +1,38 @@
+body{
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.parenst{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 30px 0px;
+  gap: 20px;
+ 
+}
+.Child{
+  /* box-shadow: 0 0 30px #00bfff; */
+     border: 4px solid  #00bfff;
+  display: grid;
+  justify-items: center;
+  padding: 30px 10px;
+  
+}
+img{
+  width: 250px;
+  height: 240px;
+}
+button{
+  width: 120px;
+  font-size: 13px;
+  font-weight: bold;
+  height: 40px;
+   box-shadow: 0 0 30px #00bfff;
+     border: 5px solid  #00bfff;
+     background-color: #00bfff;
+}
+button:hover{
+   border: 5px solid  #ff00d9;
+     background-color:  #ff00d9;
+     color: #fff;
+}
