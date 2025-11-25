@@ -9,7 +9,6 @@ function App() {
 
     const textVal =defaultData.current.value;
         console.log("textVal",textVal);
-        
   }
 
     console.log("my app render");
