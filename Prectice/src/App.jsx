@@ -45,34 +45,57 @@
 //3.  Start an interval timer and clear it on unmount.
 
 
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
-function App() {
-  const [count, setCount] = useState(0);
+// function App() {
+//   const [count, setCount] = useState(0);
 
-  useEffect(() => {
+//   useEffect(() => {
    
-    const timer = setInterval(() => {
-      setCount((prev) => prev + 1);
-    }, 1000);
+//     const timer = setInterval(() => {
+//       setCount((prev) => prev + 1);
+//     }, 1000);
 
-    return () => {
-      clearInterval(timer);
-      console.log("Interval cleared");
-    };
-  }); 
+//     return () => {
+//       clearInterval(timer);
+//       console.log("Interval cleared");
+//     };
+//   }); 
 
-  return (
-    <>
-      <h1>Timer: {count}</h1>
-    </>
-  );
-}
+//   return (
+//     <>
+//       <h1>Timer: {count}</h1>
+//     </>
+//   );
+// }
 
-export default App;  
+// export default App;  
 
 //3.Create two states and run an effect only when one specific state changes.
+// import { useState, useEffect } from "react";
 
+// function App() {
+//   const [count, setCount] = useState(0); 
+//   const [name, setName] = useState("sumit");  
 
+//   useEffect(() => {
+//     console.log(`Count changed: ${count}`);
+//   }, [count]); 
+//   return (
+//     <div>
+
+//       <h1>Count: {count}</h1>
+//       <button onClick={() => setCount(count + 1)}>Increment Count</button>
+
+//       <h1>Name: {name}</h1>
+//       <button onClick={() => setName(name === "sumit" ? "Bob" : "sumit")}>
+//         Change Name
+//       </button>
+
+//     </div>
+//   );
+// }
+
+// export default App;
 
 
