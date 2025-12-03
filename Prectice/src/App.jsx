@@ -16,8 +16,12 @@
 // }
 
 
+
+//1 .Build a counter where the document title updates with the counter  value...
+
 // import './App.css'
-// import { useEffect, useState } from 'react'
+
+// import { useEffect, useState } from 'react';
 
 // function App() {
 
@@ -34,6 +38,11 @@
 //   )
 // }
 
+// export default App;
+
+
+
+//3.  Start an interval timer and clear it on unmount.
 
 
 import { useEffect, useState } from "react";
@@ -60,6 +69,10 @@ function App() {
   );
 }
 
-export default App;
+export default App;  
 
-    
+//3.Create two states and run an effect only when one specific state changes.
+
+
+
+
