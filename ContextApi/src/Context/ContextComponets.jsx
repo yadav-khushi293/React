@@ -1,15 +1,17 @@
 /* eslint-disable react-refresh/only-export-components */
-import { Children, createContext,useState } from "react";
+import { createContext, useState } from "react";
 
 export const contextCreated = createContext(null);
 
-export const ContextComponents =({children})=>{
+export const ContextComponents = ({ children }) => {
+  const [data, setData] = useState([]);
+  const [isLogin, setisLogin] = useState(false);
 
-    const [data,setData]=useState([]);
-
-    return(
-        <contextCreated.Provider value={{data,setData}}>
-            {children}
-        </contextCreated.Provider>
-    )
-}
+  return (
+    <>
+      <contextCreated.Provider value={{ data, setData, isLogin, setisLogin }}>
+        {children}
+      </contextCreated.Provider>
+    </>
+  );
+};

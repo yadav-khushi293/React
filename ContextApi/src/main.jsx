@@ -5,6 +5,8 @@ import { ContextComponents } from './Context/ContextComponets.jsx'
 
 createRoot(document.getElementById('root')).render(
   <ContextComponents>
-    <App />
+    <ContextComponents>
+        <App/>
+    </ContextComponents>
   </ContextComponents>,
 )
