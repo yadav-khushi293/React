@@ -9,15 +9,12 @@ const getData=(url)=>{
             "x-api-key":"reqres-free-v1"
         }
     }).then((res)=>res.json()).catch((err)=>console.log(err));
-
 }
 const getCurrentPageFromUrl=(value)=>{
-
     value=Number(value);
     if(typeof value ==="number"&&value<=0)value=1;
     if(!value) value=1;
     return value;
-    
 }
 
 export const User =()=>{
@@ -37,6 +34,7 @@ export const User =()=>{
 
        React.useEffect(() => {
         setSearchParams({ page, text })
+        
     }, [page, text])
 
 

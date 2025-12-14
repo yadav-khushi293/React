@@ -1,6 +1,5 @@
 import { useContext, useState } from "react";
 import { contextCreated } from "../Context/Context_Components";
-
 import { Navigate } from "react-router-dom";
 
 export const Auth = () => {

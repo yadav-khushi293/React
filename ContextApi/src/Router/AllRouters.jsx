@@ -16,8 +16,22 @@ export const AllRoutes =()=>{
                 </PrivateRoute>
             }></Route>
 
+             <Route  path="./Singlepage"  element={
+                <PrivateRoute>
+                    <SingleUserpage/>
+                </PrivateRoute>
+            }></Route>
+             
+
+ 
             <Route path="/auth" element={<Auth/>}></Route>
             <Route path="/show_login" element={<Show_Login/>}></Route>
+              <Route  path="./user_2"  element={
+                <PrivateRoute>
+                    <Apicall_different/>
+                </PrivateRoute>
+            }></Route>
+             
             <Route path="*" element={<Page_404/>}></Route>
         </Routes>
     );

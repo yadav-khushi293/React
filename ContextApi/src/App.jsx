@@ -2,7 +2,6 @@ import './App.css'
 import { Navbar } from './Componets/Navbar'
 import { AllRoutes } from './Router/AllRouters'
 import {BreadCrumbs} from './Componets/BreadCrumb'
-
 function App() {
  
 
