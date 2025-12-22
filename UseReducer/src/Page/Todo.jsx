@@ -1,12 +1,12 @@
 import React from "react";
-import {Todo_input} from '../Component/Todo_input'
-import {Todo_list} from "../Component/Todo-list"
+import { TodoInput } from "../Component/Todo_input";
+import { Todo_list } from "../Component/Todo-list";
 
 export const Todo = ()=>{
 
     return(
         <>
-        <Todo_input/>
+        <TodoInput/>
         <Todo_list/>
         </>
     )

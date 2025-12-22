@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { reducer } from '../Reducer/Reducer';
-import { initialValue } from '../Reducer/Store';
-import { ADD_TODO_ITEMS } from '../Reducer/Action';
-import { TodoList } from './TodoList';
+import { reducer } from '../ReducerHook/Reducer';
+import { initialValue } from '../ReducerHook/Store';
+import { ADD_TODO_ITEMS } from '../ReducerHook/Action';
+import { Todo_list } from './Todo-list';
 
 export const TodoInput = () => {
   const todoText = React.useRef(null);
@@ -23,7 +23,7 @@ export const TodoInput = () => {
         placeholder="enter your task!!!"
       />
       <button onClick={handleAddTodo}>add task</button>
-      <TodoList value={{ state, dispatch }} />
+      <Todo_list  value={{ state, dispatch }} />
     </>
   );
 };
