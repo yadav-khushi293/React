@@ -1,0 +1,14 @@
+import React from "react";
+
+export const Counter =()=>{
+
+    const [count , setCount]= React.useState(0);
+
+    return(
+        <>
+       <h1>Conuter{count}</h1>
+       <button onClick={()=>setCount((prev)=>prev+1)}>Increment</button>
+       <button onClick={()=>setCount((prev)=>prev-1)}>Decrement</button>
+        </>
+    )
+}
