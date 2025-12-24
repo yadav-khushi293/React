@@ -17,7 +17,6 @@ export const AllRoutes=()=>{
             {/* <Route path="/single_page" element = {<SinglePage />} ></Route> */}
             {/* <Route path="/info_page/:userID" element = {<InfoPage />} ></Route> */}
             <Route path= "*" element ={<NotFoundPage />}></Route>
-            
             </Routes>
         </>
     )
